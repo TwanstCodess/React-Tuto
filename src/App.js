@@ -1,10 +1,9 @@
-function App() {
-  return (
+import User from './components/user';
+const App=()=>{
+  return(
     <div>
-      <h1>New Tutorial React JS</h1>
-
+      <User/>
     </div>
-  );
+  )
 }
-
 export default App;
