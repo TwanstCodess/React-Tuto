@@ -1,12 +1,20 @@
 const User=()=>{
+  const info={
+    username:"Twanst",
+    age:21,
+    job:"Developer",
+    city:"Erbil",
+    country:"Kurdistan",
+    language:"Kurdish"
+  }
     return(
         <div>
-            <h1>Username:Twanst</h1>
-            <h2>Age:25</h2>
-            <h3>Job:Developer</h3>
-            <h4>City:London</h4>
-            <h5>Country:UK</h5>
-            <h6>Language:English</h6>
+            <h1>Name:{info.username}</h1>
+            <h2>Age:{info.age}</h2>
+            <h2>Job:{info.job}</h2>
+            <h2>City:{info.city}</h2>
+            <h2>Country:{info.country}</h2>
+            <h2>speek:{info.language}</h2>
         </div>
     )
 }
