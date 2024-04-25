@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Kurd';
+    src: url('../font/kurd.ttf') format('truetype');
+
+    font-weight: normal;
+}
+
+* {
+    font-family: 'Kurd';
+}
+
+body {
+    margin: 0;
+ background-color: teal;
+    padding: 0;
+}
+input {
+    margin: 0;
+    padding: 0;
+/* best design input write code */
+    border: none;
+    padding: 15px;
+    border-radius: 120px;
+    margin: 10px;
+    background-color: #f1f1f1;
+
+}
+button{
+    margin: 0;
+    padding: 0;
+    border: none;
+    padding: 15px;
+    border-radius: 120px;
+    margin: 10px;
+    background-color: #f1f1f1;
+}
