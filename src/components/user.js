@@ -5,7 +5,8 @@ const User=()=>{
     job:"Developer",
     city:"Erbil",
     country:"Kurdistan",
-    language:"Kurdish"
+    language:"Kurdish",
+    google:"https://www.google.com/search?q="
   }
     return(
         <div>
@@ -15,6 +16,7 @@ const User=()=>{
             <h2>City:{info.city}</h2>
             <h2>Country:{info.country}</h2>
             <h2>speek:{info.language}</h2>
+            <a href={info.google+info.username}>Google</a>
         </div>
     )
 }
